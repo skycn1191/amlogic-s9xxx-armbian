@@ -1,5 +1,5 @@
 - name: Compile the kernel
-  uses: skycn1191/amlogic-s9xxx-armbian@main
+  uses: skycn1191/amlogic-s9xxx-armbian
   with:
     build_target: kernel
     kernel_version: 5.15.1_6.1.1
