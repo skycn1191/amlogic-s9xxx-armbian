@@ -140,6 +140,7 @@ on:
         default: "5.15.119_6.1.36"
         type: choice
         options:
+          - 5.15.1
           - 5.15.119
           - 6.1.36
       auto_kernel:
