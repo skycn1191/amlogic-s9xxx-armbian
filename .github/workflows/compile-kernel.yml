@@ -53,13 +53,7 @@ on:
         type: choice
         options:
           - -ophub
-          - -yourname
-      kernel_config:
-      description: "Set the kernel custom config"
-      required: false
-      default: true
-      type: boolean
-          
+          - -yourname         
 env:
   TZ: America/New_York
 
