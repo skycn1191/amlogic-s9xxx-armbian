@@ -60,7 +60,7 @@ on:
       default: "tools/config"
       type: choice
       options:
-          - true
+          - true11
           - tools/config
           
 env:
