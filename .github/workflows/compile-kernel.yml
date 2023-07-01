@@ -55,13 +55,14 @@ on:
           - -ophub
           - -yourname
       kernel_config:
-      description: "Set the kernel custom signature"
+      description: "Set the kernel custom config"
       required: false
       default: "tools/config"
       type: choice
       options:
           - false
           - tools/config
+          
 env:
   TZ: America/New_York
 
