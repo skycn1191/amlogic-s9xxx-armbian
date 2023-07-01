@@ -57,11 +57,8 @@ on:
       kernel_config:
       description: "Set the kernel custom config"
       required: false
-      default: "tools/config"
-      type: choice
-      options:
-          - true11
-          - tools/config
+      default: true
+      type: boolean
           
 env:
   TZ: America/New_York
